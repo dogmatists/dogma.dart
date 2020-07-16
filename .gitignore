@@ -9,3 +9,9 @@
 
 # Pandoc outputs
 *.html
+
+# Dart artifacts
+.dart_tool/
+.packages
+build/
+pubspec.lock
