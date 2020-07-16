@@ -2,3 +2,5 @@
 
 /// Dogma for Dart.
 library dogma;
+
+export 'src/angle.dart' show Angle;
