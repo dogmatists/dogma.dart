@@ -1,10 +1,10 @@
 /* This is free and unencumbered software released into the public domain. */
 
-/// An angle.
+/// A latitude.
 ///
-/// See: https://dogma.dev/Angle/
-class Angle {
+/// See: https://dogma.dev/Latitude/
+class Latitude {
   final double radians;
 
-  const Angle(this.radians);
+  const Latitude(this.radians);
 }
