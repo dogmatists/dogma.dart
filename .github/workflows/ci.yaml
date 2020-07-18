@@ -1,0 +1,18 @@
+---
+name: Continuous integration
+on: push
+jobs:
+  test:
+    name: Run unit tests
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+      - name: Set up Dart
+        uses: cedx/setup-dart@v2
+        with:
+          version: 2.8.1
+      - name: Install dependencies
+        run: pub get
+      - name: Run the test suite
+        run: pub run test
