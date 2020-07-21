@@ -15,7 +15,7 @@
 
 ```yaml
 dependencies:
-  dogma: ^0.0.1
+  dogma: ^0.0.2
 ```
 
 ## Examples
