@@ -4,8 +4,16 @@ name: Linter
 on:
   push:
     branches: [master]
+    paths:
+      - '**.md'
+      - '**.yaml'
+      - '**.yml'
   pull_request:
     branches: [master]
+    paths:
+      - '**.md'
+      - '**.yaml'
+      - '**.yml'
 jobs:
   lint:
     name: Lint code base
@@ -13,7 +21,7 @@ jobs:
     steps:
       - name: Clone repository
         uses: actions/checkout@v2
-      - name: Lint code base
+      - name: Lint Markdown and YAML files
         uses: docker://github/super-linter:v3.3.0
         env:
           VALIDATE_MD: true
