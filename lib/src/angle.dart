@@ -23,8 +23,8 @@ class Angle {
   const Angle.fromTurns(final double turns) : radians = turns * 2 * math.pi;
 
   /// The angle in degrees.
-  double get degrees => this.radians / math.pi * 180;
+  double get degrees => radians / math.pi * 180;
 
   /// The angle in turns.
-  double get turns => this.radians / (2 * math.pi);
+  double get turns => radians / (2 * math.pi);
 }

@@ -10,6 +10,7 @@ documentation:
 dependencies:
   meta: ^1.1.8
 dev_dependencies:
+  pedantic: ^1.9.2
   test: any
 dependency_overrides:
 environment:
