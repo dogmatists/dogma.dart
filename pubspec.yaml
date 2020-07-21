@@ -1,6 +1,6 @@
 # See: https://dart.dev/tools/pub/pubspec
 name: dogma
-version: 0.0.0
+version: 0.0.1
 description: >-
   Dogma for Dart.
 homepage: https://github.com/dogmatists/dogma.dart
