@@ -4,7 +4,7 @@ import 'dart:math' as math;
 
 /// An angle.
 ///
-/// See: https://dogma.dev/Angle/
+/// See: https://dogma.dev/Angle
 class Angle {
   /// The angle in radians.
   final double radians;

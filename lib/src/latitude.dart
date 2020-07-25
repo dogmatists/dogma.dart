@@ -4,7 +4,7 @@ import 'angle.dart' show Angle;
 
 /// A latitude.
 ///
-/// See: https://dogma.dev/Latitude/
+/// See: https://dogma.dev/Latitude
 class Latitude extends Angle {
   static const int minDegrees = -90;
   static const int maxDegrees = 90;

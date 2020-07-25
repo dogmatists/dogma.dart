@@ -32,9 +32,9 @@ import 'package:dogma/dogma.dart';
 
 ### Classes
 
-- [`Angle`](https://dogma.dev/Angle/)
-- [`Latitude`](https://dogma.dev/Latitude/)
-- [`Longitude`](https://dogma.dev/Longitude/)
+- [`Angle`](https://dogma.dev/Angle)
+- [`Latitude`](https://dogma.dev/Latitude)
+- [`Longitude`](https://dogma.dev/Longitude)
 
 ## See Also
 

@@ -4,7 +4,7 @@ import 'angle.dart' show Angle;
 
 /// A longitude.
 ///
-/// See: https://dogma.dev/Longitude/
+/// See: https://dogma.dev/Longitude
 class Longitude extends Angle {
   static const int minDegrees = -180;
   static const int maxDegrees = 180;
